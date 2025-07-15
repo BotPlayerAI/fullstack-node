@@ -1,0 +1,11 @@
+POST http://localhost:3001/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ODcxNDZjZTJjNGE1N2E0YjYyYmJhY2QiLCJlbWFpbCI6ImpvaG5AZG9lLmNvbSIsImlhdCI6MTc1MjMzODQyOSwiZXhwIjoxNzUyNDI0ODI5fQ.f1LepFlFONCHNQFjkspmhg1UsTMPLp_J2B7VPde4ffQ
+
+{
+  "title": "Task with a user",
+  "dueDate": "2025-01-01T12:00:00Z",
+  "description": "Something...",
+  "priority": "normal",
+  "status": "todo"
+}
